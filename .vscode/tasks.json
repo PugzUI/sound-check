@@ -1,0 +1,39 @@
+{
+  "version": "2.0.0",
+  "options": {
+    "cwd": "${workspaceFolder}"
+  },
+  "tasks": [
+    {
+      "label": "bun install",
+      "type": "shell",
+      "command": "bun install",
+      "problemMatcher": []
+    },
+    {
+      "label": "dev:web (frontend only)",
+      "type": "shell",
+      "command": "bun run dev:web",
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "dev (full app with hot-reload)",
+      "type": "shell",
+      "command": "bun run dev",
+      "isBackground": true,
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "test:watch",
+      "type": "shell",
+      "command": "bun run test:watch",
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}

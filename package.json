@@ -1,0 +1,48 @@
+{
+  "name": "vibe-check",
+  "private": true,
+  "version": "0.1.1",
+  "type": "module",
+  "scripts": {
+    "dev": "tauri dev",
+    "dev:x11": "env GDK_BACKEND=x11 tauri dev",
+    "dev:webkit-wayland": "env WEBKIT_DISABLE_DMABUF_RENDERER=1 tauri dev",
+    "dev:web": "vite",
+    "build": "tauri build",
+    "build:web": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "test": "vitest run",
+    "test:rust": "cd src-tauri && cargo test",
+    "test:all": "bun run test && bun run test:rust",
+    "test:watch": "vitest watch",
+    "test:cov": "vitest run --coverage",
+    "check": "bun run check:types && bun run check:rust",
+    "check:types": "tsc --noEmit",
+    "check:rust": "cd src-tauri && cargo check"
+  },
+  "dependencies": {
+    "@tanstack/react-virtual": "^3.13.12",
+    "@tauri-apps/api": "^2.10.1",
+    "@tauri-apps/plugin-opener": "^2",
+    "jotai": "^2.15.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "styled-components": "^6.1.19"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.10.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/node": "^22.8.6",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "@vitest/coverage-v8": "^2.1.4",
+    "jsdom": "^24.1.3",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.4",
+    "vitest": "^2.1.4"
+  }
+}

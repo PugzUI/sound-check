@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Main Process (Rust)",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/src-tauri/target/debug/vibe-check",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "dev (full app with hot-reload)"
+        },
+        {
+            "name": "Debug Renderer Process",
+            "type": "chrome",
+            "request": "attach",
+            "port": 9222,
+            "webRoot": "${workspaceFolder}",
+            "timeout": 30000
+        }
+    ]
+}
