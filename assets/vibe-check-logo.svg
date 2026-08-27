@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400" role="img"
   aria-labelledby="logoTitle logoDesc">
-  <title id="logoTitle">Vibe Check</title>
+  <title id="logoTitle">Sound Check</title>
   <desc id="logoDesc">Audio metadata analyzer wordmark with level-meter bars</desc>
   <defs>
     <radialGradient id="bgGlow" cx="50%" cy="45%" r="65%">
@@ -95,7 +95,7 @@
   </g>
 
   <g filter="url(#titleShadow)">
-    <text x="450" y="195" class="title">VIBE CHECK</text>
+    <text x="450" y="195" class="title">Sound Check</text>
 
     <rect x="334" y="232" width="232" height="34" rx="17" fill="#252525" stroke="#FFD700"
       stroke-opacity="0.35" stroke-width="1" />
