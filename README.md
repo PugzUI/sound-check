@@ -1,7 +1,7 @@
 # Sound Check
 
 <p align="center">
-  <img src="assets/vibe-check-logo.svg" alt="Sound Check Logo" width="600" />
+  <img src="assets/sound-check-logo.svg" alt="Sound Check Logo" width="600" />
 </p>
 
 <p align="center">

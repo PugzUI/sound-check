@@ -2,7 +2,7 @@
 
 ## System Overview
 
-Vibe Check is a Tauri desktop app with a React/TypeScript renderer and a Rust backend for audio analysis.
+Sound Check is a Tauri desktop app with a React/TypeScript renderer and a Rust backend for audio analysis.
 The frontend owns UI state and interactions; the backend owns file I/O, format detection, and metadata extraction.
 
 ## Runtime Layers

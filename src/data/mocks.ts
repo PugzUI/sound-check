@@ -21,15 +21,15 @@ export type FileItem = {
 };
 
 export const SAMPLE_PATHS = [
-    "C:\\Users\\Anwender\\Documents\\Workspaces\\Vibe_Check\\samples\\01 - Globular - Popping Out.flac",
-    "C:\\Users\\Anwender\\Documents\\Workspaces\\Vibe_Check\\samples\\01 - Globular - Popping Out.m4a",
-    "C:\\Users\\Anwender\\Documents\\Workspaces\\Vibe_Check\\samples\\01 - Globular - Popping Out.mp3",
-    "C:\\Users\\Anwender\\Documents\\Workspaces\\Vibe_Check\\samples\\01 - Globular - Popping Out.ogg",
-    "C:\\Users\\Anwender\\Documents\\Workspaces\\Vibe_Check\\samples\\01 - Globular - Popping Out.wav",
-    "C:\\Users\\Anwender\\Documents\\Workspaces\\Vibe_Check\\samples\\01 - Globular - Wrong Format.flac",
-    "C:\\Users\\Anwender\\Documents\\Workspaces\\Vibe_Check\\samples\\01 - Globular - Wrong Format.m4a",
-    "C:\\Users\\Anwender\\Documents\\Workspaces\\Vibe_Check\\samples\\01 - Globular - Wrong Format.mp3",
-    "C:\\Users\\Anwender\\Documents\\Workspaces\\Vibe_Check\\samples\\01 - Globular - Wrong Format.ogg",
+    "C:\\Users\\Anwender\\Documents\\Workspaces\\Sound_Check\\samples\\01 - Globular - Popping Out.flac",
+    "C:\\Users\\Anwender\\Documents\\Workspaces\\Sound_Check\\samples\\01 - Globular - Popping Out.m4a",
+    "C:\\Users\\Anwender\\Documents\\Workspaces\\Sound_Check\\samples\\01 - Globular - Popping Out.mp3",
+    "C:\\Users\\Anwender\\Documents\\Workspaces\\Sound_Check\\samples\\01 - Globular - Popping Out.ogg",
+    "C:\\Users\\Anwender\\Documents\\Workspaces\\Sound_Check\\samples\\01 - Globular - Popping Out.wav",
+    "C:\\Users\\Anwender\\Documents\\Workspaces\\Sound_Check\\samples\\01 - Globular - Wrong Format.flac",
+    "C:\\Users\\Anwender\\Documents\\Workspaces\\Sound_Check\\samples\\01 - Globular - Wrong Format.m4a",
+    "C:\\Users\\Anwender\\Documents\\Workspaces\\Sound_Check\\samples\\01 - Globular - Wrong Format.mp3",
+    "C:\\Users\\Anwender\\Documents\\Workspaces\\Sound_Check\\samples\\01 - Globular - Wrong Format.ogg",
 ];
 
 const baseMocks: FileItem[] = [

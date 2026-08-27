@@ -1,5 +1,5 @@
 #!/bin/bash
-# Dev environment setup script for vibe-check
+# Dev environment setup script for sound-check
 
 # Get current user info
 USER_ID=$(id -u)

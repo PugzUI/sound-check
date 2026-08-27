@@ -1,4 +1,4 @@
-# Vibe Check - Agent Documentation
+# Sound Check - Agent Documentation
 
 ## Project Overview
 
@@ -21,7 +21,7 @@ Audio metadata analysis application built with Tauri, React, and TypeScript. A W
 ## Project Structure
 
 ```
-vibe-check/
+sound-check/
 ├── src/                    # React frontend
 │   ├── App.tsx
 │   ├── main.tsx

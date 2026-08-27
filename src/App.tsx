@@ -989,7 +989,7 @@ function App() {
       <Shell>
         <Header>
           <TopBar>
-            <Title>Vibe Check</Title>
+            <Title>Sound Check</Title>
             <Actions>
               <Button onClick={handleBrowse} $tone="yellow">
                 Browse Files

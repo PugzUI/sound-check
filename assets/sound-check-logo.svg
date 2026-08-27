@@ -82,22 +82,22 @@
     </style>
   </defs>
 
-  <rect width="100%" height="100%" fill="url(#bgGlow)" rx="16" ry="16" />
+  <rect width="100%" height="100%" fill="url(#bgGlow)" />
 
   <g opacity="0.9" transform="translate(43 0)">
-    <rect class="bar b1" x="328" y="150" width="14" height="100" rx="7" />
-    <rect class="bar b2" x="352" y="125" width="14" height="150" rx="7" />
-    <rect class="bar b3" x="376" y="80" width="14" height="240" rx="7" />
-    <rect class="bar b4" x="400" y="140" width="14" height="120" rx="7" />
-    <rect class="bar b5" x="424" y="65" width="14" height="270" rx="7" />
-    <rect class="bar b6" x="448" y="110" width="14" height="180" rx="7" />
-    <rect class="bar b7" x="472" y="145" width="14" height="110" rx="7" />
+    <rect class="bar b1" x="328" y="150" width="14" height="100" />
+    <rect class="bar b2" x="352" y="125" width="14" height="150" />
+    <rect class="bar b3" x="376" y="80" width="14" height="240" />
+    <rect class="bar b4" x="400" y="140" width="14" height="120" />
+    <rect class="bar b5" x="424" y="65" width="14" height="270" />
+    <rect class="bar b6" x="448" y="110" width="14" height="180" />
+    <rect class="bar b7" x="472" y="145" width="14" height="110" />
   </g>
 
   <g filter="url(#titleShadow)">
     <text x="450" y="195" class="title">Sound Check</text>
 
-    <rect x="334" y="232" width="232" height="34" rx="17" fill="#252525" stroke="#FFD700"
+    <rect x="334" y="232" width="232" height="34" fill="#252525" stroke="#FFD700"
       stroke-opacity="0.35" stroke-width="1" />
     <text x="450" y="249" class="subtitle">AUDIO METADATA</text>
   </g>

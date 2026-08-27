@@ -1,6 +1,6 @@
 # User Guide
 
-Vibe Check analyzes audio files and shows detected format + core metadata in one table.
+Sound Check analyzes audio files and shows detected format + core metadata in one table.
 
 ## Basic Workflow
 
