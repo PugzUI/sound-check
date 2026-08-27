@@ -1,7 +1,7 @@
-# VIBE CHECK
+# Sound Check
 
 <p align="center">
-  <img src="assets/vibe-check-logo.svg" alt="Vibe Check Logo" width="600" />
+  <img src="assets/vibe-check-logo.svg" alt="Sound Check Logo" width="600" />
 </p>
 
 <p align="center">
@@ -18,7 +18,7 @@
 
 ## Overview
 
-Vibe Check is a desktop audio metadata analyzer built with Tauri, React, and Rust.
+Sound Check is a desktop audio metadata analyzer built with Tauri, React, and Rust.
 It verifies format from file signatures (magic bytes) instead of extensions, then reports core metadata in a sortable table.
 
 ## Capabilities
